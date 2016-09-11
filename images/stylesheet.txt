@@ -1,0 +1,269 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Blue-Human-Icon-Small {
+    width: 31px;
+    height: 25px;
+    background-position: -5px -5px;
+}
+
+.sprite-Blue-dashboard {
+    width: 78px;
+    height: 63px;
+    background-position: -46px -5px;
+}
+
+.sprite-Channels {
+    width: 91px;
+    height: 93px;
+    background-position: -134px -5px;
+}
+
+.sprite-Gray-Gear-Icon {
+    width: 32px;
+    height: 25px;
+    background-position: -235px -5px;
+}
+
+.sprite-Green-Article-Icon {
+    width: 26px;
+    height: 29px;
+    background-position: -277px -5px;
+}
+
+.sprite-Green-Article-Icon-1 {
+    width: 26px;
+    height: 35px;
+    background-position: -313px -5px;
+}
+
+.sprite-Green-Checkmark {
+    width: 26px;
+    height: 34px;
+    background-position: -349px -5px;
+}
+
+.sprite-Green-Human-Outline {
+    width: 96px;
+    height: 68px;
+    background-position: -385px -5px;
+}
+
+.sprite-Green-Icon-Bar-Graph {
+    width: 73px;
+    height: 63px;
+    background-position: -491px -5px;
+}
+
+.sprite-Green-Icon-Dashboard {
+    width: 78px;
+    height: 63px;
+    background-position: -5px -78px;
+}
+
+.sprite-Green-Icon-Messages {
+    width: 81px;
+    height: 63px;
+    background-position: -235px -78px;
+}
+
+.sprite-Green-Icon-Paper {
+    width: 70px;
+    height: 63px;
+    background-position: -491px -78px;
+}
+
+.sprite-Green-Icon-People {
+    width: 77px;
+    height: 63px;
+    background-position: -5px -151px;
+}
+
+.sprite-Green-Icon-Tag {
+    width: 83px;
+    height: 63px;
+    background-position: -92px -151px;
+}
+
+.sprite-Green-Image {
+    width: 240px;
+    height: 150px;
+    background-position: -185px -151px;
+}
+
+.sprite-Green-Lightbulb {
+    width: 21px;
+    height: 35px;
+    background-position: -93px -78px;
+}
+
+.sprite-Grey-small-human-icon {
+    width: 27px;
+    height: 26px;
+    background-position: -326px -78px;
+}
+
+.sprite-Group-Pic {
+    width: 281px;
+    height: 190px;
+    background-position: -5px -311px;
+}
+
+.sprite-Left-Circle-Arrow {
+    width: 25px;
+    height: 22px;
+    background-position: -435px -151px;
+}
+
+.sprite-Left-Orange-Chevron {
+    width: 17px;
+    height: 21px;
+    background-position: -470px -151px;
+}
+
+.sprite-Line-Graph-Green {
+    width: 190px;
+    height: 80px;
+    background-position: -296px -311px;
+}
+
+.sprite-Line-Graph-Orange {
+    width: 190px;
+    height: 80px;
+    background-position: -296px -401px;
+}
+
+.sprite-Logout-Icon {
+    width: 36px;
+    height: 36px;
+    background-position: -497px -151px;
+}
+
+.sprite-Orange-human-Outlne {
+    width: 99px;
+    height: 68px;
+    background-position: -435px -197px;
+}
+
+.sprite-Referrals {
+    width: 92px;
+    height: 98px;
+    background-position: -574px -5px;
+}
+
+.sprite-Right-Arrow-Circle {
+    width: 23px;
+    height: 22px;
+    background-position: -124px -113px;
+}
+
+.sprite-Right-Orange-Chevron {
+    width: 22px;
+    height: 21px;
+    background-position: -157px -113px;
+}
+
+.sprite-Search-Icon {
+    width: 38px;
+    height: 36px;
+    background-position: -571px -113px;
+}
+
+.sprite-See-How-others {
+    width: 246px;
+    height: 190px;
+    background-position: -296px -491px;
+}
+
+.sprite-Social-Media-Icons {
+    width: 76px;
+    height: 24px;
+    background-position: -363px -113px;
+}
+
+.sprite-White-Gear-Icon {
+    width: 23px;
+    height: 25px;
+    background-position: -189px -113px;
+}
+
+.sprite-White-Question-Mark-Icon {
+    width: 29px;
+    height: 25px;
+    background-position: -449px -113px;
+}
+
+.sprite-White-triangle {
+    width: 62px;
+    height: 17px;
+    background-position: -543px -159px;
+}
+
+.sprite-blue-bar-graph {
+    width: 73px;
+    height: 63px;
+    background-position: -544px -186px;
+}
+
+.sprite-blue-notepad-icon {
+    width: 70px;
+    height: 63px;
+    background-position: -544px -259px;
+}
+
+.sprite-blue-people {
+    width: 77px;
+    height: 63px;
+    background-position: -496px -332px;
+}
+
+.sprite-blue-tag-icon {
+    width: 83px;
+    height: 63px;
+    background-position: -583px -332px;
+}
+
+.sprite-blue-text-icon {
+    width: 81px;
+    height: 63px;
+    background-position: -496px -405px;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -619px -113px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -627px -153px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -627px -193px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -233px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -233px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -233px;
+}

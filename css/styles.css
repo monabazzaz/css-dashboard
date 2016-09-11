@@ -1,0 +1,103 @@
+#head {
+background-color: #208ce3;
+text-align: right;
+font-family: MyriadPro-Regular;
+padding-top: 15px;
+color: white;
+height: 44px;
+}
+#head p {
+  margin-right: 270px;
+}
+@font-face {
+  font-family: MyriadPro-Regular;
+  src: url(fonts/MyriadPro-Regular.otf);
+}
+body {
+  font-family: MyriadPro-Regular;
+}
+#blue {
+  height: 112px;
+  padding-bottom: 14px;
+  background-color: #134670;
+}
+#blue .image-responsive {
+  margin-left: 20px;
+}
+.dashboard {
+  background-color: #33cc66;
+  height: 72px;
+  border-radius: 8px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.dashboard p {
+  font-size: 25px;
+  color: white;
+  padding-left: 26px;
+  padding-top: 21px;
+}
+#main {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+  margin-left: 110px;
+  margin-right: auto;
+  width: 1050px;
+}
+.col-sm-2 {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+}
+.col-lg-9 {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+}
+.col-sm-1 {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+}
+.leftside h2 {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+  width: 344px;
+  height:299px;
+}
+.analytics {
+  border-color: #f0f0f0;
+  border-width: thin;
+  border-bottom: solid;
+  width: 602px;
+  height: 399px;
+}
+.rightsidedidyouknow col-md-6 contacts {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+  width: 300px;
+  height: 200px;
+}
+.rightsidedidyouknow col-md-6 contacts {
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+  width: 300px;
+  height: 200px;
+}
+.rightsidedidyouknow {
+  background-color: #2498f4;
+}
+.bottomblue {
+  background-color: #2498f4;
+  border-color: #f0f0f0;
+  border-style: solid;
+  border-width: thin;
+  width: 1050px;
+  height: 220px;
+}
