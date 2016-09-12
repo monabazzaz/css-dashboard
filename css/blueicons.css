@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(../images/blueicons.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Icon_Analytics_blue {
+    width: 40px;
+    height: 48px;
+    background-position: -5px -5px;
+}
+
+.sprite-Icon_Customers_blue {
+    width: 60px;
+    height: 40px;
+    background-position: -55px -5px;
+}
+
+.sprite-Icon_Messages_blue {
+    width: 55px;
+    height: 46px;
+    background-position: -125px -5px;
+}
+
+.sprite-Icon_PageCreator_Blue {
+    width: 43px;
+    height: 48px;
+    background-position: -190px -5px;
+}
+
+.sprite-Icon_Promotions-blue {
+    width: 48px;
+    height: 48px;
+    background-position: -243px -5px;
+}
+
+.sprite-icon_dashboard_blue-copy {
+    width: 58px;
+    height: 58px;
+    background-position: -301px -5px;
+}

@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(../images/dashboardsprites.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Green-Icon-1 {
+    width: 78px;
+    height: 63px;
+    background-position: -5px -5px;
+}
+
+.sprite-Green-Icon-2 {
+    width: 77px;
+    height: 63px;
+    background-position: -93px -5px;
+}
+
+.sprite-Green-Icon-3 {
+    width: 81px;
+    height: 63px;
+    background-position: -180px -5px;
+}
+
+.sprite-Green-Icon-4 {
+    width: 83px;
+    height: 63px;
+    background-position: -271px -5px;
+}
+
+.sprite-Green-Icon-5 {
+    width: 70px;
+    height: 63px;
+    background-position: -364px -5px;
+}
+
+.sprite-Green-Icon-6 {
+    width: 73px;
+    height: 63px;
+    background-position: -444px -5px;
+}

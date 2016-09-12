@@ -6,9 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Project1</title>
+    <style>
+      hr {
+          display: block;
+          margin-left: 0px;
+          margin-right: auto;
+          border-style: inset;
+          border-width: 1px;
+      }
+</style>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,12 +27,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/sprites.css" rel="stylesheet">
+    <link href="css/dashboardstylesheet.css" rel="stylesheet">
   </head>
 
   <body>
     <section id="head">
       <div class="container-fluid">
-        <p><strong>MINI of Raleigh</strong></p>
+        <a class="mini" href="#">MINI of Raleigh</a>
+        <a class="white" href="#"> <img src='images/White-Question-Mark-Icon.png'/> </a>
+        <a class="whitegear" href="#"> <img src='images/White-Gear-Icon.png'/> </a>
       </div>
     </section>
 
@@ -30,8 +44,29 @@
   <!--This is the container-fluid which is where the icons at the top of the page will go-->
     <div class="container-fluid">
       <div class="row" id="blue">
-        <div class="col-xs-12">
-          <img class="image-responsive" align-content="center" src="http://monabazzaz.org/homedir/public_html/mejo586/project/images/Blue-header-icons.png" />
+        <div class="col-xs-12 menu">
+          <div class="col-md-3"></div>
+
+          <div class="col-md-1">
+            <div class="sprite-Green-Icon-1 sprite"></div>
+          </div>
+          <div class="col-md-1">
+            <div class="sprite-Green-Icon-2 sprite"></div>
+          </div>
+          <div class="col-md-1">
+            <div class="sprite-Green-Icon-3 sprite"></div>
+          </div>
+          <div class="col-md-1">
+            <div class="sprite-Green-Icon-4 sprite"></div>
+          </div>
+          <div class="col-md-1">
+            <div class="sprite-Green-Icon-5 sprite"></div>
+          </div>
+          <div class="col-md-1">
+            <div class="sprite-Green-Icon-6 sprite"></div>
+          </div>
+          <div class="col-md-3"></div>
+
         </div>
       </div>
     </div>
@@ -40,59 +75,218 @@
     <div class="container">
       <div class="row">
         <div class="dashboard">
-          <p>Dashboard</p>
+          <div class="col-md-6">
+            <div class="words"><p>Dashboard</p></div>
+          </div>
+          <div class="col-md-6">
+            <div class="search">
+              <input placeholder="">
+              <img src='images/lookingclass.png' />
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="container" id="main">
       <div class="row">
-        <div class="col-sm-2"><p>Announcements</p></div>
-        <div class="col-lg-9"><p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p></div>
-        <div class="col-sm-1"><p>boop</p></div>
+        <div class="col-sm-2"><p>ANNOUNCEMENTS</p></div>
+        <div class="col-lg-9 sociis"><p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p></div>
+        <a href="#"><div class="col-sm-1"><img src='images/Left-Circle-Arrow.png'><img src='images/Right-Arrow-Circle.png'></div></a>
       </div>
 
+
+<!--This is the left side of the page which includes Tasks and Recommendations-->
       <div class="row">
         <div class="leftside">
           <div class="col-md-4">
-            <div class="tasks"><h2>Tasks</h2></div>
-            <div class="recommendations"><h2>Recommendations</h2></div>
-          </div>
+            <div class="tasks">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2>Tasks</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <h2></h2>
+                    <a href="#"><img src='images/Gray-Gear-Icon.png'></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="welcome">
+                    <div class="col-xs-1">
+                      <a href="#"><div id=circle style="display:inline-block"><p style="display:inline-block">1</p></div>
+                    </div>
+                    <div class="col-md-8">
+                      <p style="display:inline-block"> Welcome Contacts</p>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="iconnumber">
+                        <a href="#"><img src='images/Blue-Human-Icon-Small.png' style="display:inline-block">32</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="provide">
+                    <div class="col-xs-1">
+                      <a href="#"><div id=circle style="display:inline-block"><p style="display:inline-block">2</p></div>
+                    </div>
+                    <div class="col-md-8">
+                      <p style="display:inline-block"> Provide Responses</p>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="iconnumber">
+                        <a href="#"><img src='images/Blue-Human-Icon-Small.png' style="display:inline-block">36</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                <div class="review">
+                  <div class="col-xs-1">
+                    <a href="#"><div id=circle style="display:inline-block"><p style="display:inline-block">3</p></div>
+                  </div>
+                  <div class="col-md-8">
+                    <p style="display:inline-block"> Review Activity</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="iconnumber">
+                      <a href="#"><img src='images/Blue-Human-Icon-Small.png' style="display:inline-block">36</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="reach">
+                  <div class="col-xs-1">
+                    <a href="#"><div id=circle style="display:inline-block"><p style="display:inline-block">4</p></div>
+                  </div>
+                  <div class="col-md-8">
+                    <p style="display:inline-block"> Reach Out</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="iconnumber">
+                      <a href="#"><img src='images/Blue-Human-Icon-Small.png' style="display:inline-block">3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="recommendations"><h2>Recommendations</h2>
+              <div class="row">
+                <div class="fans">
+                  <div class="col-xs-1">
+                    <a href="#"><img src='images/Green-Article-Icon.png' style="display:inline-block"></a>
+                  </div>
+                  <div class="col-lg-8">
+                    <p class="art">Article</p> <p class="sev"> 7 Steps to getting more Fans</p>
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="interactions">
+                  <div class="col-xs-1">
+                    <a href="#"><img src='images/Green-Article-Icon.png'></a>
+                  </div>
+                  <div class="col-lg-8">
+                    <p class="art">Article</p> <p class="sev"> Increase traction with more interactions</p>
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="checklist">
+                  <div class="col-xs-1">
+                    <a href="#"><img src='images/Green-Checkmark.png'></a>
+                  </div>
+                  <div class="col-lg-8">
+                    <p class="art">Checklist</p> <p class="sev"> Creating a Promotion</p>
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="sharemore">
+                  <div class="col-xs-1">
+                    <a href="#"><img src='images/Green-Lightbulb.png'></a>
+                  </div>
+                  <div class="col-lg-8">
+                    <p class="art">Tip</p> <p class="sev"> Share More</p>
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+              </div>
+            </div>
         </div>
+<!--This is the right side of the page which includes Analytics and Contacts/Customers-->
         <div class="rightside">
           <div class="col-lg-8">
-            <div class="analytics"><h2>Analytics</h2></div>
-            <div class="rightsidelower">
-              <div class="col-md-6" "contacts"><h2>contacts</h2></div>
-              <div class="col-md-6" "customers"><h2>customers</h2></div>
+            <div class="analytics"><h2>Analytics</h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <p> ACTIVITY</p>
+                </div>
+                <div class="col-md-5">
+                </div>
+                <div class="col-sm-3">
+                  <p> CHANNELS</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-9">
+                  <img src='images/graph.png'>
+                </div>
+                <div class="col-sm-3">
+                </div>
+              </div>
             </div>
+            <div class="rightsidelower">
+              <div class="col-md-6">
+                <div class= "contacts"><h4>75 CONTACTS</h4></div>
+              </div>
+              <div class="col-md-6">
+                <div class="customers"><h4>17 CUSTOMERS</h4></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
             <div class="rightsidedidyouknow">
               <div class="col-lg-12"><h2>Did you know?</h2></div>
             </div>
           </div>
         </div>
       </div>
-
+    </div>
       <div class="row">
         <div class"col-lg-12">
           <div class="bottomblue">
-            <div class="col-md-4"><h3>Watch what you say</h3></div>
-            <div class="col-md-4"><h3>See what others are doing with us</h3></div>
-            <div class="col-md-4"><h3>Version 2 is coming</h3></div>
+            <div class="col-md-4">
+              <div class="watch"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="others"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="version"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+  </div>
 
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-3"><p>Tutorials | Support | Blog</p></div>
-          <div class="col-md-6"><p>Ariel Winter likes your Win a Cooper Sweepstakes Promotion</p></div>
-          <div class="col-sm-1"><p>Logout</p></div>
-          <div class="col-sm-1"><p>Icons</p></div>
-          <div class="col-sm-1"><p></p></div>
-        </div>
+
+<!-- This is the footer-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="footer">
+        <div class="col-sm-3"><p>Tutorials | Support | Blog</p></div>
+        <div class="col-md-6"><p>Ariel Winter likes your Win a Cooper Sweepstakes Promotion</p></div>
+        <div class="col-sm-1"><p>Logout</p></div>
+        <div class="col-sm-1"><p>Icons</p></div>
+        <div class="col-sm-1"><p></p></div>
+      </div>
     </div>
+  </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
