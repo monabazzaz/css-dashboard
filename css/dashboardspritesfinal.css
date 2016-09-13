@@ -1,0 +1,77 @@
+.sprite-dash {
+    background-image: url(../images/dashboardspritesfinal.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-dash_Analytics_blue {
+    width: 40px;
+    height: 48px;
+    background-position: -5px -5px;
+}
+
+.sprite-dash_Customers_blue {
+    width: 60px;
+    height: 40px;
+    background-position: -55px -5px;
+}
+
+.sprite-dash_Messages_blue {
+    width: 55px;
+    height: 46px;
+    background-position: -125px -5px;
+}
+
+.sprite-dash_PageCreator_Blue {
+    width: 43px;
+    height: 48px;
+    background-position: -190px -5px;
+}
+
+.sprite-dash_Promotions-blue {
+    width: 48px;
+    height: 48px;
+    background-position: -243px -5px;
+}
+
+.sprite-dashboard_blue {
+    width: 58px;
+    height: 58px;
+    background-position: -301px -5px;
+}
+
+.sprite-greencustomers2 {
+    width: 62px;
+    height: 42px;
+    background-position: -369px -5px;
+}
+
+.sprite-greengraph6 {
+    width: 42px;
+    height: 50px;
+    background-position: -441px -5px;
+}
+
+.sprite-greenicondash {
+    width: 56px;
+    height: 56px;
+    background-position: -493px -5px;
+}
+
+.sprite-greenmessages3 {
+    width: 57px;
+    height: 48px;
+    background-position: -559px -5px;
+}
+
+.sprite-greenpage5 {
+    width: 45px;
+    height: 50px;
+    background-position: -626px -5px;
+}
+
+.sprite-greentag4 {
+    width: 50px;
+    height: 50px;
+    background-position: -681px -5px;
+}

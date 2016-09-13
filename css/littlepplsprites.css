@@ -1,0 +1,17 @@
+.sprite-people {
+    background-image: url(../images/peopleicons.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Blue-Human-Icon-Small {
+    width: 31px;
+    height: 25px;
+    background-position: -5px -5px;
+}
+
+.sprite-Blue-Human-Icon-Small:hover {
+    width: 27px;
+    height: 26px;
+    background-position: -46px -5px;
+}
